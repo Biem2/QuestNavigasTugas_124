@@ -58,4 +58,13 @@ fun TampilanData(
             modifier = Modifier.padding(paddingValues = isiRuang),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
+            Column(
+                modifier = Modifier.padding(all = dimensionResource(id = R.dimen.padding_small)),
+                verticalArrangement = Arrangement.spacedBy(
+                    space = dimensionResource
+                        (id = R.dimen.padding_small)
+                )
+            ) {
+
+            }
 
